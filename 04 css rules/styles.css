@@ -1,8 +1,8 @@
 body {
-    font-family: Gotham, Arial; 
-    font-weight: 100; 
+    font-family: "American Typewriter","Brush Script Std", "Arial Rounded MT Bold"; 
+    font-weight: normal; 
     font-size: 15px; 
-    background-image: url("Green-gradient.png");
+    background-image: url("blue-gradient.png");
     background-repeat: repeat-x;
     padding-left: 80px;
     padding-right: 80px;
@@ -10,84 +10,87 @@ body {
     padding-bottom: 50px;
 }
 #initials{
-    background-image: url(white%20letters.png);
-    background-position: right top, left top;;
+    background-image: url(hibiscus.png);
+    background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     padding: 15px;
+    background-size: 50%;
 }
 h1{ 
-    font-family: Gotham, Arial; 
-    font-size:  40px;
+    font-family: "Brush Script Std", "Arial Rounded MT Bold"; 
+    font-size:  60px;
+    font-weight: normal;
+    color: #adbf51;
 }
 h2{
-    font-family: Gotham, Arial; 
+    font-family: "Brush Script Std", "Arial Rounded MT Bold";
     font-weight: 400; 
-    font-size: 30px;
+    font-size: 40px;
 }
 h3{
-    font-family: Gotham, Arial; 
+    font-family: "Brush Script Std", "Arial Rounded MT Bold";
     font-weight: 400; 
-    font-size: 20px;
+    font-size: 30px;
 }
 ul{
     list-style-type: circle;
 }
 table {
     border-collapse: collapse; 
-    font-family: Gotham, Arial; 
+    font-family: "American Typewriter", "Arial"; 
     font-weight: 400; 
-    font-size:  12px;
+    font-size:  14px;
 }
 iframe{
-    border-style: groove; 
+    border-style: double; 
     border-width: 10px; 
-    border-color: #adbf51;
+    border-color: #f8e233;
 }
 input,select {
-    padding: 5px 30px;
+    padding: 5px 100px;
     margin: 5px 0;
-    border: 1px solid; color: #adbf51;
+    border: 2px solid; color: #f7cd1f;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 input[type=submit]{
-    background-color: rgba(173, 191, 81, 0.32);
+    background-color: rgba(248, 226, 51, 0.14);
 }
 hr { 
     display: block;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    border-style: groove;
-    border-width: 10px;
-    border-color: #adbf51;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f8e233;
 }
 .italic{
     font-style: italic;
-    font-size: 13px;
+    font-size: 18px;
+    color: #adbf51;
+   
 } 
 #navigation{
-    list-style-type: square;
     padding: 10px;
-    overflow: visible;
-    background-color: #fdf9f9;
+    overflow: auto;
+    background-color: #f8e233;
     display: block;
-    color: saddlebrown;
-    padding: 15px 20px;
-    text-align: center;
+    text-align: left;
 }
 .home{
-  color: #adbf51; margin-right: 100px;
+  color: blue; margin-right: 300px;
+    text-decoration: none
 }
 #space1{
     padding: 1px 50px 50px 1px;
 }
 div.img {
-    margin: 5px;
+    margin: 50px;
     float: left;
     width: 562px;
 }
 div.img1 {
-    margin: 5px;
-    float: ;
+    margin: 100px;
     width: 562px;
 }
 div.img img {
