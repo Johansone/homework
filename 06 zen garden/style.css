@@ -10,7 +10,7 @@
 
 /* basic elements */
 html {
-    padding: ;
+    
     background: 
         url(cherry-blossom-copy.png), 
         url(Asset1.png), 
@@ -73,12 +73,15 @@ header h1 {
 	font-size: 60px;
     font-weight: 300;
     margin-left: 580px;
+
 	}
 header h2 { 
 	font-family: 'Raleway', sans-serif; color: #5bca04;
     font-weight: 300;
     padding-bottom: 0px;
     margin-left: 580px;
+    
+    
 	}
 header {
 	height: 300px;
@@ -109,15 +112,17 @@ header {
     top: 400px;
 }
 .participation{
-    position: absolute;
+    position: relative;
     width: 398px;
-    right: 400px;
-    top: 1200px;
+    left: 520px;
+   top: 380px;
 }
 .benefits{
-    position: absolute;
+    position: relative;
     width: 398px;
-    right: 400px;
+    left: 520px;
+    bottom: 420px;
+    
 }
 .requirements{
     position: absolute;
@@ -130,7 +135,7 @@ footer {
 	text-align: center;
     position: relative;
     width:700px;
-    top: 990px;
+    top: 380px;
     left: 700px; 
 	}
 footer a:link, footer a:visited { 
@@ -181,7 +186,7 @@ a.footer5{
 .contentinfo{
     width: 200px;
     position: relative;
-    top: 1050px;
+    top:450px;
     left: 1030px;
 }
 
